@@ -8,7 +8,7 @@ app = FastAPI(title="AI Planner & Time Tracker API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.frontend_origin],
+    allow_origins=["https://flowline-2050.netlify.app","http://localhost:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
