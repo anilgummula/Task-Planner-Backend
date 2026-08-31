@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     google_client_secret: str
 
     gemini_api_key: str
-    gemini_model: str = "gemini-2.5-flash"
+    gemini_model: str = "gemini-3.5-flash-lite"
 
     frontend_origin: str = "https://flowline-2050.netlify.app"
 
